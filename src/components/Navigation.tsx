@@ -19,9 +19,16 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-healing">Dr. Sarala</h1>
-            <p className="text-xs text-muted-foreground">Acupuncture & Healing</p>
+          <div className="flex-shrink-0 flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/611a77e7-cd1e-4b80-85f8-2253b6e8f156.png" 
+              alt="TD Blue Logo" 
+              className="h-12 w-auto"
+            />
+            <div>
+              <h1 className="text-lg font-bold text-healing">Dr. Sarala</h1>
+              <p className="text-xs text-muted-foreground">Acupuncture & Healing</p>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

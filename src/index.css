@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 158 20% 15%;
 
-    --primary: 158 64% 52%;
+    --primary: 180 80% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 158 40% 65%;
+    --primary-glow: 180 60% 70%;
 
     --secondary: 44 28% 92%;
     --secondary-foreground: 158 20% 15%;
@@ -27,15 +27,15 @@ All colors MUST be HSL.
     --muted: 44 28% 92%;
     --muted-foreground: 158 12% 45%;
 
-    --accent: 200 100% 87%;
+    --accent: 200 90% 60%;
     --accent-foreground: 158 20% 15%;
 
-    --healing: 158 64% 52%;
-    --healing-light: 158 40% 92%;
-    --healing-dark: 158 64% 35%;
+    --healing: 180 80% 50%;
+    --healing-light: 180 40% 92%;
+    --healing-dark: 180 80% 35%;
 
-    --warm: 44 87% 75%;
-    --warm-light: 44 87% 85%;
+    --warm: 200 70% 60%;
+    --warm-light: 200 70% 75%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -82,9 +82,9 @@ All colors MUST be HSL.
     --popover: 158 20% 12%;
     --popover-foreground: 44 28% 92%;
 
-    --primary: 158 64% 52%;
+    --primary: 180 80% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 158 40% 65%;
+    --primary-glow: 180 60% 70%;
 
     --secondary: 158 20% 15%;
     --secondary-foreground: 44 28% 92%;
@@ -92,15 +92,15 @@ All colors MUST be HSL.
     --muted: 158 20% 15%;
     --muted-foreground: 158 12% 65%;
 
-    --accent: 200 100% 20%;
+    --accent: 200 90% 30%;
     --accent-foreground: 44 28% 92%;
 
-    --healing: 158 64% 52%;
-    --healing-light: 158 40% 25%;
-    --healing-dark: 158 64% 35%;
+    --healing: 180 80% 50%;
+    --healing-light: 180 40% 25%;
+    --healing-dark: 180 80% 35%;
 
-    --warm: 44 87% 45%;
-    --warm-light: 44 87% 55%;
+    --warm: 200 70% 45%;
+    --warm-light: 200 70% 55%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 44 28% 92%;
