@@ -21,7 +21,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/zentouch-logo.png" 
+              src="/lovable-uploads/zentouch-logo-purple.png" 
               alt="Zentouch Logo" 
               className="h-12 w-auto"
             />
