@@ -2,7 +2,7 @@ import { ArrowRight, Star, Users, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import heroImage from "@/assets/hero-healing.jpg";
-import drSaralaImage from "@/assets/dr-sarala-professional.jpg";
+import drSaralaImage from "@/assets/dr-sarala-original.jpg";
 
 const HeroSection = () => {
   const stats = [
