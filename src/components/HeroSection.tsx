@@ -73,11 +73,11 @@ const HeroSection = () => {
           <div className="lg:justify-self-end">
             <Card className="p-6 bg-card/95 backdrop-blur-sm border-healing/20 shadow-lg">
               <div className="text-center space-y-4">
-                <div className="relative w-32 h-32 mx-auto">
+                <div className="relative w-40 h-40 mx-auto mt-4">
                   <img
                     src={drSaralaImage}
                     alt="Dr. Sarala"
-                    className="w-full h-full object-cover rounded-full border-4 border-healing"
+                    className="w-full h-full object-cover object-top rounded-full border-4 border-healing scale-110"
                   />
                   <div className="absolute -bottom-2 -right-2 bg-healing text-primary-foreground rounded-full p-2">
                     <Award className="h-4 w-4" />
