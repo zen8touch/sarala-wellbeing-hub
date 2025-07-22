@@ -21,12 +21,12 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/611a77e7-cd1e-4b80-85f8-2253b6e8f156.png" 
-              alt="TD Blue Logo" 
+              src="/lovable-uploads/zentouch-logo.png" 
+              alt="Zentouch Logo" 
               className="h-12 w-auto"
             />
             <div>
-              <h1 className="text-lg font-bold text-healing">Dr. Sarala</h1>
+              <h1 className="text-lg font-bold text-healing">Zentouch</h1>
               <p className="text-xs text-muted-foreground">Acupuncture & Healing</p>
             </div>
           </div>
