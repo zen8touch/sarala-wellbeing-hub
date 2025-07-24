@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navigation = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
-    { name: "Specializations", href: "#specializations" },
+    { name: "Service Details", href: "/service-details" },
     { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
   ];
@@ -35,13 +36,23 @@ const Navigation = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navigation.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-foreground hover:text-healing px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                >
-                  {item.name}
-                </a>
+                item.href.startsWith('#') ? (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="text-foreground hover:text-healing px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className="text-foreground hover:text-healing px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                )
               ))}
             </div>
           </div>
@@ -79,14 +90,25 @@ const Navigation = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-background border-b border-border">
             {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-healing hover:bg-muted transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </a>
+              item.href.startsWith('#') ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-healing hover:bg-muted transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-healing hover:bg-muted transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
             <div className="pt-4 pb-2">
               <Button variant="healing" className="w-full">

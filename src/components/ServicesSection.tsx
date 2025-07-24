@@ -59,7 +59,7 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Healing Services
+            Areas of Specialization
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Comprehensive natural healing services tailored to your unique needs and wellness journey
@@ -90,20 +90,6 @@ const ServicesSection = () => {
                   </ul>
                 </div>
 
-                <div className="pt-4 border-t border-border space-y-2">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Duration:</span>
-                    <span className="font-medium text-foreground">{service.duration}</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Investment:</span>
-                    <span className="font-medium text-healing">{service.price}</span>
-                  </div>
-                </div>
-
-                <Button variant="healing" className="w-full mt-4">
-                  Book Session
-                </Button>
               </CardContent>
             </Card>
           ))}
@@ -112,13 +98,13 @@ const ServicesSection = () => {
         <div className="mt-16 text-center">
           <Card className="p-8 bg-gradient-to-r from-healing-light/20 to-accent/20 border-healing/20">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              Not Sure Which Service Is Right for You?
+              Would you like to take a social skill questionnaire?
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Book a free 15-minute consultation to discuss your needs and find the perfect healing approach for your journey.
+              Would you like to know about your child social skill level.
             </p>
             <Button variant="hero" size="lg">
-              Free Consultation Call
+              Go to Assessment
             </Button>
           </Card>
         </div>
