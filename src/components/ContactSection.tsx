@@ -10,22 +10,22 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Location",
-      details: ["Chennai, Tamil Nadu", "Multiple clinic locations", "Home visits available"]
+      details: ["Block 51/Villa 7 Bollineni Hillside", "Nogampalayyam main road, Sithalapkkam", "Chennai 600126"]
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 XXXX-XXXX-XX", "WhatsApp available", "Emergency consultations"]
+      details: ["+91 98846-44331", "Appointment only", "Quick response guaranteed"]
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["dr.sarala@healingchennai.com", "Quick response guaranteed", "Secure communication"]
+      details: ["Zentouchq@gmail.com", "Quick response guaranteed", "Secure communication"]
     },
     {
       icon: Clock,
-      title: "Hours",
-      details: ["Mon-Fri: 9:00 AM - 7:00 PM", "Sat: 9:00 AM - 5:00 PM", "Emergency: On-call"]
+      title: "Availability",
+      details: ["By appointment only", "Flexible scheduling", "Emergency consultations available"]
     }
   ];
 
@@ -156,21 +156,16 @@ const ContactSection = () => {
                 Serving Chennai & Surrounding Areas
               </h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Multiple clinic locations across Chennai for your convenience. Home visits available 
-                for patients with mobility challenges or special needs.
+                Located at Bollineni Hillside, Sithalapkkam. Appointment-based practice for 
+                personalized care and attention to your healing journey.
               </p>
-              <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="grid md:grid-cols-1 gap-6 text-center">
                 <div>
-                  <h4 className="font-medium text-foreground">T. Nagar Clinic</h4>
-                  <p className="text-sm text-muted-foreground">Main practice location</p>
-                </div>
-                <div>
-                  <h4 className="font-medium text-foreground">Adyar Center</h4>
-                  <p className="text-sm text-muted-foreground">Specialized autism care</p>
-                </div>
-                <div>
-                  <h4 className="font-medium text-foreground">Online Consultations</h4>
-                  <p className="text-sm text-muted-foreground">Virtual appointments available</p>
+                  <h4 className="font-medium text-foreground">Zentouch Healing Practice</h4>
+                  <p className="text-sm text-muted-foreground">Dr. Saral MD. Acu.</p>
+                  <p className="text-sm text-muted-foreground">Block 51/Villa 7, Bollineni Hillside</p>
+                  <p className="text-sm text-muted-foreground">Nogampalayyam main road, Sithalapkkam</p>
+                  <p className="text-sm text-muted-foreground">Chennai 600126</p>
                 </div>
               </div>
             </div>

@@ -65,7 +65,7 @@ const Navigation = () => {
             </div>
             <div className="flex items-center text-sm text-muted-foreground">
               <Phone className="h-4 w-4 mr-1" />
-              +91 XXXX-XXXX
+              +91 98846-44331
             </div>
             <Button variant="healing" size="sm">
               Book Consultation

@@ -30,7 +30,7 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            About Dr. Sarala
+            About Dr. Saral MD. Acu.
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             A dedicated healing practitioner with over 15 years of experience in acupuncture, 
@@ -45,19 +45,19 @@ const AboutSection = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Dr. Sarala brings a unique combination of traditional acupuncture techniques 
-                and Bach flower remedies to provide comprehensive healing solutions. Her special 
-                focus on autism spectrum disorders and adolescent mental health has helped 
-                hundreds of families find hope and healing.
+                Dr. Saral brings a unique combination of traditional acupuncture techniques 
+                and modern therapeutic approaches to healing. With specialized training in 
+                Bach flower remedies and extensive experience in autism spectrum support, 
+                she offers comprehensive care that goes beyond conventional treatment methods.
               </p>
               <p>
-                As a freelance practitioner in Chennai, Dr. Sarala offers personalized care 
+                As a practitioner in Chennai operating by appointment only, Dr. Saral offers personalized care 
                 that addresses not just symptoms, but the root causes of health challenges. 
-                Her approach integrates physical, emotional, and spiritual wellness for 
-                lasting transformation.
+                Her holistic approach combines ancient wisdom with contemporary understanding 
+                to create effective, lasting healing experiences.
               </p>
               <p>
-                Beyond individual treatments, Dr. Sarala is passionate about women's healthcare, 
+                Beyond individual treatments, Dr. Saral is passionate about women's healthcare,
                 providing specialized support for hormonal balance, reproductive health, 
                 and emotional well-being throughout all life stages.
               </p>

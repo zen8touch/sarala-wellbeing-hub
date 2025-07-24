@@ -12,7 +12,7 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: "About Dr. Sarala", href: "#about" },
+    { name: "About Dr. Saral", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Specializations", href: "#specializations" },
     { name: "Blog", href: "#blog" },
@@ -30,27 +30,27 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-healing" />
               <div>
-                <h3 className="text-xl font-bold">Dr. Sarala</h3>
+                <h3 className="text-xl font-bold">Dr. Saral MD. Acu.</h3>
                 <p className="text-sm text-background/80">Acupuncture & Healing Specialist</p>
               </div>
             </div>
             <p className="text-background/80 max-w-md">
               Transforming lives through natural healing, specialized care for autism, 
               adolescent well-being, women's health, and emotional balance. Based in Chennai, 
-              serving the community with compassion and expertise.
+              providing compassionate care through appointment-based practice.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4 text-healing" />
-                <span>Chennai, Tamil Nadu</span>
+                <span>Block 51/Villa 7 Bollineni Hillside, Chennai 600126</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4 text-healing" />
-                <span>+91 XXXX-XXXX-XX</span>
+                <span>+91 98846-44331</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4 text-healing" />
-                <span>dr.sarala@healingchennai.com</span>
+                <span>Zentouchq@gmail.com</span>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="py-6 border-t border-background/20 flex flex-col md:flex-row justify-between items-center text-sm text-background/80">
-          <p>© 2024 Dr. Sarala Healing Practice. All rights reserved.</p>
+          <p>© 2024 Dr. Saral MD. Acu. Healing Practice. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-healing transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-healing transition-colors">Terms of Service</a>
