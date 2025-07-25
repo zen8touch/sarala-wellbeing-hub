@@ -25,7 +25,7 @@ const ContactSection = () => {
     {
       icon: Clock,
       title: "Availability",
-      details: ["By appointment only", "Flexible scheduling", "Emergency consultations available"]
+      details: ["By appointment only"]
     }
   ];
 
@@ -162,7 +162,7 @@ const ContactSection = () => {
               <div className="grid md:grid-cols-1 gap-6 text-center">
                 <div>
                   <h4 className="font-medium text-foreground">Zentouch Healing Practice</h4>
-                  <p className="text-sm text-muted-foreground">Dr. Saral MD. Acu.</p>
+                  <p className="text-sm text-muted-foreground">Dr. Sarala MD. Acu.</p>
                   <p className="text-sm text-muted-foreground">Block 51/Villa 7, Bollineni Hillside</p>
                   <p className="text-sm text-muted-foreground">Nogampalayyam main road, Sithalapkkam</p>
                   <p className="text-sm text-muted-foreground">Chennai 600126</p>

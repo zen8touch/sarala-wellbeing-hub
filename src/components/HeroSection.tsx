@@ -35,7 +35,7 @@ const HeroSection = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 <span className="text-foreground">Natural Healing with</span>
                 <br />
-                <span className="text-healing">Dr. Saral MD. Acu.</span>
+                <span className="text-healing">Dr. Sarala MD. Acu.</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
                 Specialized acupuncturist offering transformative healing for autism, 
@@ -47,11 +47,11 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="lg" className="group">
-                Book Free Consultation
+                Book Consultation
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg">
-                AI Healing Chat
+                Self care check
               </Button>
             </div>
 
@@ -76,7 +76,7 @@ const HeroSection = () => {
                 <div className="relative w-40 h-40 mx-auto mt-4">
                   <img
                     src={drSaralaImage}
-                    alt="Dr. Saral"
+                    alt="Dr. Sarala"
                     className="w-full h-full object-cover object-top rounded-full border-4 border-healing scale-110"
                   />
                   <div className="absolute -bottom-2 -right-2 bg-healing text-primary-foreground rounded-full p-2">
@@ -84,7 +84,7 @@ const HeroSection = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground">Dr. Saral MD. Acu.</h3>
+                  <h3 className="text-xl font-semibold text-foreground">Dr. Sarala MD. Acu.</h3>
                   <p className="text-sm text-accent">Licensed Acupuncturist</p>
                   <p className="text-sm text-muted-foreground">Sithalapkkam, Chennai</p>
                 </div>
