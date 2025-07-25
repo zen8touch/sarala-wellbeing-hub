@@ -86,6 +86,7 @@ const HeroSection = () => {
                 <div>
                   <h3 className="text-xl font-semibold text-foreground">Dr. Sarala MD. Acu.</h3>
                   <p className="text-sm text-accent">Licensed Acupuncturist</p>
+                  <p className="text-sm text-accent">Certified Life Coach</p>
                   <p className="text-sm text-muted-foreground">Sithalapkkam, Chennai</p>
                 </div>
                 <div className="flex justify-center space-x-1">
