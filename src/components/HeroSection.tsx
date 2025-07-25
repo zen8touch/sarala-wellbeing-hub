@@ -35,7 +35,7 @@ const HeroSection = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 <span className="text-foreground">Natural Healing with</span>
                 <br />
-                <span className="text-healing">Dr. Sarala MD. Acu.</span>
+                <span className="text-healing">Dr. Sarala M.D. Acu.</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
                 Specialized acupuncturist offering transformative healing for autism, 
@@ -84,7 +84,7 @@ const HeroSection = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground">Dr. Sarala MD. Acu.</h3>
+                  <h3 className="text-xl font-semibold text-foreground">Dr. Sarala M.D. Acu.</h3>
                   <p className="text-sm text-accent">Licensed Acupuncturist</p>
                   <p className="text-sm text-accent">Certified Life Coach</p>
                   <p className="text-sm text-muted-foreground">Sithalapkkam, Chennai</p>
