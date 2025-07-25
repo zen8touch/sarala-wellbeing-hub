@@ -1,4 +1,5 @@
 import { Zap, Flower, Heart, Brain, Users, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -103,9 +104,11 @@ const ServicesSection = () => {
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
               Would you like to know about your child social skill level.
             </p>
-            <Button variant="hero" size="lg">
-              Go to Assessment
-            </Button>
+            <Link to="/assessment">
+              <Button variant="hero" size="lg">
+                Go to Assessment
+              </Button>
+            </Link>
           </Card>
         </div>
       </div>
