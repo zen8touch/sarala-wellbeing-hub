@@ -30,7 +30,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-healing" />
               <div>
-                <h3 className="text-xl font-bold">Dr. Sarala M.D.</h3>
+                <h3 className="text-xl font-bold">Dr. Sarala M.D. Acu.</h3>
                 <p className="text-sm text-background/80">Acupuncture & Healing Specialist</p>
               </div>
             </div>
@@ -123,7 +123,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="py-6 border-t border-background/20 flex flex-col md:flex-row justify-between items-center text-sm text-background/80">
-          <p>© 2024 Dr. Sarala M.D. Healing Practice. All rights reserved.</p>
+          <p>© 2024 Dr. Sarala M.D. Acu. Healing Practice. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-healing transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-healing transition-colors">Terms of Service</a>

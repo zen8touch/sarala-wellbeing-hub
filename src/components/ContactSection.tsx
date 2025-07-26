@@ -162,7 +162,7 @@ const ContactSection = () => {
               <div className="grid md:grid-cols-1 gap-6 text-center">
                 <div>
                   <h4 className="font-medium text-foreground">Zentouch Healing Practice</h4>
-                  <p className="text-sm text-muted-foreground">Dr. Sarala M.D.</p>
+                  <p className="text-sm text-muted-foreground">Dr. Sarala M.D. Acu.</p>
                   <p className="text-sm text-muted-foreground">Regn. No. 200 - Tamilnadu Acupuncture Council</p>
                   <p className="text-sm text-muted-foreground">Block 51/Villa 7, Bollineni Hillside</p>
                   <p className="text-sm text-muted-foreground">Nogampalayyam main road, Sithalapkkam</p>
