@@ -5,6 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const Assessment = () => {
   const [formData, setFormData] = useState({
@@ -132,7 +134,9 @@ const Assessment = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background py-8">
+    <>
+      <Navigation />
+      <div className="min-h-screen bg-background py-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <Link to="/" className="inline-flex items-center text-healing hover:text-healing/80 mb-4">
@@ -346,7 +350,9 @@ const Assessment = () => {
           </div>
         </form>
       </div>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 

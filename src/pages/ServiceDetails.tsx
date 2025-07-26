@@ -2,6 +2,8 @@ import { ArrowLeft, Zap, Flower, Heart, Brain, Users, Sparkles } from "lucide-re
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import autismCareImage from "@/assets/autism-care.jpg";
 import womensCareImage from "@/assets/womens-care.jpg";
 
@@ -102,7 +104,9 @@ const ServiceDetails = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-16">
+    <>
+      <Navigation />
+      <div className="min-h-screen pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Back to Home Button */}
         <div className="mb-8">
@@ -188,7 +192,9 @@ const ServiceDetails = () => {
           ))}
         </div>
       </div>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 

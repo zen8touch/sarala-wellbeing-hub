@@ -7,7 +7,7 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "#home" },
+    { name: "Home", href: "/" },
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Service Details", href: "/service-details" },
