@@ -106,7 +106,9 @@ const Blog = () => {
       } else if (line.startsWith('- **')) {
         elements.push(
           <li key={key++} className="ml-6 mb-2 text-muted-foreground">
-            {line.substring(2).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}
+            <span dangerouslySetInnerHTML={{
+              __html: line.substring(2).replace(/\*\*(.*?)\*\*/g, '<strong class="text-foreground font-semibold">$1</strong>')
+            }} />
           </li>
         );
       } else if (line.includes('**')) {
