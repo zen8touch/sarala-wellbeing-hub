@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 import { Link } from "react-router-dom";
+import footAcupunctureImage from "@/assets/foot-acupuncture-treatment.jpg";
 
 const blogPosts = [
   {
@@ -315,6 +316,17 @@ const Blog = () => {
                           </span>
                         </div>
                       </header>
+                      
+                      {/* Add featured image for plantar fasciitis post */}
+                      {post.id === 2 && (
+                        <div className="mb-8">
+                          <img 
+                            src={footAcupunctureImage} 
+                            alt="Acupuncture treatment for plantar fasciitis and foot pain"
+                            className="w-full h-64 object-cover rounded-lg shadow-lg"
+                          />
+                        </div>
+                      )}
                       
                       <div className="prose-content">
                         {formatContent(post.content)}
