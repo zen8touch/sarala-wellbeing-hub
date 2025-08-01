@@ -5,7 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 import { Link } from "react-router-dom";
-import footAcupunctureImage from "@/assets/foot-acupuncture-treatment.jpg";
+import footAcupunctureNeedles from "/lovable-uploads/a99f5030-b08d-41ef-a5b8-98223427bf80.png";
+import plantarFasciitisAnatomy from "/lovable-uploads/f38ce6dc-e69e-44a8-bfbd-b99db3addbc7.png";
 
 const blogPosts = [
   {
@@ -188,11 +189,41 @@ const Blog = () => {
       const line = lines[i];
       
       if (line.startsWith('## ')) {
+        // Add anatomical image after "What is Plantar Fasciitis?" heading
         elements.push(
           <h2 key={key++} className="text-2xl font-bold text-foreground mt-8 mb-4">
             {line.substring(3)}
           </h2>
         );
+        if (line.substring(3) === 'What is Plantar Fasciitis?') {
+          elements.push(
+            <div key={key++} className="mb-6">
+              <img 
+                src={plantarFasciitisAnatomy} 
+                alt="Anatomical diagram showing plantar fasciitis inflammation in the foot"
+                className="w-full max-w-lg mx-auto h-auto rounded-lg shadow-lg"
+              />
+              <p className="text-sm text-muted-foreground text-center mt-2">
+                Anatomical view showing inflamed plantar fascia (highlighted in red)
+              </p>
+            </div>
+          );
+        }
+        // Add acupuncture image after "Acupuncture & Trigger Point Therapy" heading
+        if (line.substring(3) === 'Acupuncture & Trigger Point Therapy: How They Work') {
+          elements.push(
+            <div key={key++} className="mb-6">
+              <img 
+                src={footAcupunctureNeedles} 
+                alt="Acupuncture needles being applied to foot for plantar fasciitis treatment"
+                className="w-full max-w-lg mx-auto h-auto rounded-lg shadow-lg"
+              />
+              <p className="text-sm text-muted-foreground text-center mt-2">
+                Acupuncture needles targeting specific points on the foot for plantar fasciitis relief
+              </p>
+            </div>
+          );
+        }
       } else if (line.startsWith('### ')) {
         elements.push(
           <h3 key={key++} className="text-xl font-semibold text-foreground mt-6 mb-3">
@@ -316,17 +347,6 @@ const Blog = () => {
                           </span>
                         </div>
                       </header>
-                      
-                      {/* Add featured image for plantar fasciitis post */}
-                      {post.id === 2 && (
-                        <div className="mb-8">
-                          <img 
-                            src={footAcupunctureImage} 
-                            alt="Acupuncture treatment for plantar fasciitis and foot pain"
-                            className="w-full h-64 object-cover rounded-lg shadow-lg"
-                          />
-                        </div>
-                      )}
                       
                       <div className="prose-content">
                         {formatContent(post.content)}
