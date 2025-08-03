@@ -1,11 +1,22 @@
+
 import { ArrowRight, Star, Users, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import { useToast } from "@/hooks/use-toast";
 import heroImage from "@/assets/hero-healing.jpg";
 const drSaralaImage = "/lovable-uploads/798c3fe8-9f52-4b86-96a1-3ed678104880.png";
 
 const HeroSection = () => {
+  const { toast } = useToast();
+
+  const handleBookConsultation = () => {
+    toast({
+      title: "Thank you for your interest!",
+      description: "Feature yet to be enabled - to book appointment do WhatsApp to 9884644331",
+    });
+  };
+
   const stats = [
     { icon: Users, value: "500+", label: "Patients Healed" },
     { icon: Award, value: "15+", label: "Years Experience" },
@@ -47,7 +58,7 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="group">
+              <Button variant="hero" size="lg" className="group" onClick={handleBookConsultation}>
                 Book Consultation
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>

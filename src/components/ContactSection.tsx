@@ -1,11 +1,29 @@
+
 import { MapPin, Phone, Mail, Clock, MessageCircle, Calendar } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
+  const { toast } = useToast();
+
+  const handleBookingClick = () => {
+    toast({
+      title: "Thank you for your interest!",
+      description: "Feature yet to be enabled - to book appointment do WhatsApp to 9884644331",
+    });
+  };
+
+  const handleSendMessage = () => {
+    toast({
+      title: "Thank you for your interest!",
+      description: "Feature yet to be enabled - to book appointment do WhatsApp to 9884644331",
+    });
+  };
+
   const contactInfo = [
     {
       icon: MapPin,
@@ -66,11 +84,11 @@ const ContactSection = () => {
 
             {/* Quick Actions */}
             <div className="space-y-3 pt-4">
-              <Button variant="healing" className="w-full">
+              <Button variant="healing" className="w-full" onClick={handleBookingClick}>
                 <MessageCircle className="mr-2 h-4 w-4" />
                 WhatsApp Chat
               </Button>
-              <Button variant="outline" className="w-full">
+              <Button variant="outline" className="w-full" onClick={handleBookingClick}>
                 <Calendar className="mr-2 h-4 w-4" />
                 Online Booking
               </Button>
@@ -139,7 +157,7 @@ const ContactSection = () => {
                     </label>
                   </div>
 
-                  <Button variant="healing" size="lg" className="w-full">
+                  <Button variant="healing" size="lg" className="w-full" onClick={handleSendMessage}>
                     Send Message
                   </Button>
                 </div>

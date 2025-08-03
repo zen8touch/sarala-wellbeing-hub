@@ -1,10 +1,20 @@
+
 import { useState } from "react";
 import { Menu, X, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useToast } from "@/hooks/use-toast";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { toast } = useToast();
+
+  const handleBookConsultation = () => {
+    toast({
+      title: "Thank you for your interest!",
+      description: "Feature yet to be enabled - to book appointment do WhatsApp to 9884644331",
+    });
+  };
 
   const navigation = [
     { name: "Home", href: "/" },
@@ -67,7 +77,7 @@ const Navigation = () => {
               <Phone className="h-4 w-4 mr-1" />
               +91 98846-44331
             </div>
-            <Button variant="healing" size="sm">
+            <Button variant="healing" size="sm" onClick={handleBookConsultation}>
               Book Consultation
             </Button>
           </div>
@@ -111,7 +121,7 @@ const Navigation = () => {
               )
             ))}
             <div className="pt-4 pb-2">
-              <Button variant="healing" className="w-full">
+              <Button variant="healing" className="w-full" onClick={handleBookConsultation}>
                 Book Consultation
               </Button>
             </div>
