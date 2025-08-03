@@ -1,7 +1,6 @@
 
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, ArrowRight, Brain, Users, Heart } from "lucide-react";
+import { Calendar, ArrowRight, Brain, Users, Heart, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const blogPosts = [
@@ -39,6 +38,13 @@ const assessments = [
     title: "Adolescent Self Awareness",
     icon: Heart,
     link: "/adolescent-self-awareness",
+    available: false
+  },
+  {
+    id: 4,
+    title: "Self Care Check",
+    icon: CheckCircle,
+    link: "/self-care-check",
     available: false
   }
 ];

@@ -1,6 +1,7 @@
 import { ArrowRight, Star, Users, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-healing.jpg";
 const drSaralaImage = "/lovable-uploads/798c3fe8-9f52-4b86-96a1-3ed678104880.png";
 
@@ -50,9 +51,11 @@ const HeroSection = () => {
                 Book Consultation
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="lg">
-                Self care check
-              </Button>
+              <Link to="/self-care-check">
+                <Button variant="outline" size="lg">
+                  Self care check
+                </Button>
+              </Link>
             </div>
 
             {/* Stats */}

@@ -10,6 +10,7 @@ import Assessment from "./pages/Assessment";
 import Blog from "./pages/Blog";
 import SocialSkillEvaluation from "./pages/SocialSkillEvaluation";
 import AdolescentSelfAwareness from "./pages/AdolescentSelfAwareness";
+import SelfCareCheck from "./pages/SelfCareCheck";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/social-skill-evaluation" element={<SocialSkillEvaluation />} />
           <Route path="/adolescent-self-awareness" element={<AdolescentSelfAwareness />} />
+          <Route path="/self-care-check" element={<SelfCareCheck />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
