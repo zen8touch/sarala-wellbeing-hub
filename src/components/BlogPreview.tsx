@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -19,7 +20,7 @@ const blogPosts = [
 
 const BlogPreview = () => {
   return (
-    <div className="bg-card border rounded-lg p-6 sticky top-24">
+    <div className="bg-background/50 backdrop-blur-sm border border-border/50 rounded-lg p-6 sticky top-24">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-xl font-bold text-foreground">Latest Insights</h3>
         <Link 
@@ -34,7 +35,7 @@ const BlogPreview = () => {
       <div className="space-y-4">
         {blogPosts.map((post) => (
           <Link key={post.id} to="/blog" className="block group">
-            <Card className="border-0 shadow-none hover:shadow-sm transition-shadow">
+            <Card className="bg-background/80 border-border/30 shadow-soft hover:shadow-healing/20 transition-all duration-300">
               <CardHeader className="p-4">
                 <CardTitle className="text-sm font-semibold text-foreground group-hover:text-healing transition-colors line-clamp-2">
                   {post.title}
