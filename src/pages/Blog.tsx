@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 import { Link } from "react-router-dom";
+import BlogPreview from "@/components/BlogPreview";
 import footAcupunctureNeedles from "/lovable-uploads/a99f5030-b08d-41ef-a5b8-98223427bf80.png";
 import plantarFasciitisAnatomy from "/lovable-uploads/f38ce6dc-e69e-44a8-bfbd-b99db3addbc7.png";
 
@@ -156,6 +157,60 @@ Dry needling of these trigger points may deactivate muscle knots directly, relie
 
 Acupuncture and trigger point therapy can dramatically improve pain and inflammation in plantar fasciitis, especially when integrated with holistic, expert-guided care. If you're struggling with persistent heel pain, consulting an experienced acupuncturist—like those at Zentouch—can set you on a path to safe, effective relief and lasting recovery.
     `
+  },
+  {
+    id: 3,
+    title: "🌸 ZenJi: AI-Powered Emotional Healing with Bach Flower Essences",
+    excerpt: "ZenJi is an innovative AI-driven natural healing companion, designed to nurture emotional well-being through personalized floral blends.",
+    date: "2024-12-01",
+    author: "Dr. Sarala",
+    content: `
+🌸 ZenJi is an innovative AI-driven natural healing companion, designed to nurture emotional well-being through personalized floral blends. By sharing your feelings and engaging in a gentle conversation with ZenJi, you receive thoughtful Bach Flower Essence recommendations—tailored to support balance, resilience, and inner calm.
+
+## Understanding Bach Flower Remedies
+
+Bach Flower Remedies are gentle, plant-based treatments created from wildflower extracts. Rooted in the principle of vibrational healing, they recognize that each emotional state resonates at a unique frequency.
+
+**Positive emotions** like joy and acceptance vibrate at higher frequencies.
+
+**Challenging emotions** such as fear, anger, or sadness vibrate at lower frequencies.
+
+ZenJi draws on this vibrational wisdom, carefully matching your emotional needs with the precise flower essences that can restore balance.
+
+## Why Choose Bach Flower Remedies?
+
+- **Safe, non-toxic, non-addictive** – Suitable for all ages, including children and pets.
+- **Compatible with other therapies** – Complements medical, holistic, and psychological treatments without risk of interaction.
+- **Empowers emotional health** – Many report reduced stress, improved calm, and greater resilience during challenging times.
+
+## How Are Bach Flower Remedies Made?
+
+Flower essences are prepared by placing fresh blossoms in natural spring water, then boiling or sun-infusing them. The water—now carrying the flowers' energetic imprint—is filtered and preserved with brandy. This process captures the subtle vibrational essence of each flower, making it available for healing.
+
+## Flexible Applications for Emotional Care
+
+Bach Flower Remedies are easy to integrate into daily life:
+
+- **Typically available in liquid dropper bottles**, taken orally or diluted in water.
+- **Also offered in sprays, creams, lozenges, and even bath salts**.
+- **Dosage is simple**—just a few drops several times a day.
+- **Multiple essences can be blended** into a customized formula that reflects your unique emotional needs.
+
+## The Gentle Power of Flower Essences
+
+Whether you're experiencing stress, uncertainty, grief, or a lack of confidence, flower essences offer:
+
+- **A natural, side-effect-free alternative**.
+- **Gentle support for the body's healing processes**.
+- **Compatibility with both modern medicine and holistic practices**.
+- **Subtle yet profound impact on emotional well-being**.
+
+## Free Thyself: Healing Mind, Body, and Spirit
+
+With ZenJi as your guide, Bach Flower Remedies become more than a remedy—they become a pathway to self-discovery and emotional empowerment. Together, they help you harmonize mind, body, and spirit, unlocking a higher state of peace and joy through nature's gentle wisdom.
+
+🌿 **Let ZenJi help you step into balance, resilience, and a life in tune with your true self.**
+    `
   }
 ];
 
@@ -255,58 +310,58 @@ const Blog = () => {
       <Navigation />
       
       <main className="pt-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {selectedPost === null ? (
-            // Blog Index
-            <div>
-              <div className="flex items-center justify-between mb-8">
-                <div>
-                  <h1 className="text-4xl font-bold text-foreground mb-4">Blog</h1>
-                  <p className="text-muted-foreground">
-                    Insights and tips for natural healing and wellness
-                  </p>
+        <div className="flex">
+          <div className="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            {selectedPost === null ? (
+              // Blog Index
+              <div>
+                <div className="flex items-center justify-between mb-8">
+                  <div>
+                    <h1 className="text-4xl font-bold text-foreground mb-4">Blog</h1>
+                    <p className="text-muted-foreground">
+                      Insights and tips for natural healing and wellness
+                    </p>
+                  </div>
+                  <Link to="/">
+                    <Button variant="outline" className="flex items-center gap-2">
+                      <ArrowLeft className="w-4 h-4" />
+                      Back to Home
+                    </Button>
+                  </Link>
                 </div>
-                <Link to="/">
-                  <Button variant="outline" className="flex items-center gap-2">
-                    <ArrowLeft className="w-4 h-4" />
-                    Back to Home
-                  </Button>
-                </Link>
-              </div>
 
-              <div className="grid gap-6">
-                {blogPosts.map((post) => (
-                  <Card 
-                    key={post.id} 
-                    className="cursor-pointer hover:shadow-lg transition-shadow"
-                    onClick={() => handlePostSelect(post.id)}
-                  >
-                    <CardHeader>
-                      <CardTitle className="text-xl hover:text-healing transition-colors">
-                        {post.title}
-                      </CardTitle>
-                      <CardDescription className="flex items-center gap-4 text-sm">
-                        <span className="flex items-center gap-1">
-                          <Calendar className="w-4 h-4" />
-                          {new Date(post.date).toLocaleDateString()}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <User className="w-4 h-4" />
-                          {post.author}
-                        </span>
-                      </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-muted-foreground">{post.excerpt}</p>
-                    </CardContent>
-                  </Card>
-                ))}
+                <div className="grid gap-6">
+                  {blogPosts.map((post) => (
+                    <Card 
+                      key={post.id} 
+                      className="cursor-pointer hover:shadow-lg transition-shadow"
+                      onClick={() => handlePostSelect(post.id)}
+                    >
+                      <CardHeader>
+                        <CardTitle className="text-xl hover:text-healing transition-colors">
+                          {post.title}
+                        </CardTitle>
+                        <CardDescription className="flex items-center gap-4 text-sm">
+                          <span className="flex items-center gap-1">
+                            <Calendar className="w-4 h-4" />
+                            {new Date(post.date).toLocaleDateString()}
+                          </span>
+                          <span className="flex items-center gap-1">
+                            <User className="w-4 h-4" />
+                            {post.author}
+                          </span>
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent>
+                        <p className="text-muted-foreground">{post.excerpt}</p>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
               </div>
-            </div>
-          ) : (
-            // Blog Post Detail
-            <div>
-              <div className="mb-8">
+            ) : (
+              // Blog Post Detail
+              <div>
                 <Button 
                   variant="outline" 
                   onClick={handleBackToIndex}
@@ -345,8 +400,12 @@ const Blog = () => {
                   );
                 })()}
               </div>
-            </div>
-          )}
+            )}
+          </div>
+          
+          <aside className="hidden lg:block w-80 p-6">
+            <BlogPreview />
+          </aside>
         </div>
       </main>
       

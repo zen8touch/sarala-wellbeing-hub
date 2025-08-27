@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, ArrowRight, Brain, Users, Heart, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -15,6 +14,12 @@ const blogPosts = [
     title: "Plantar Fasciitis & Acupuncture",
     excerpt: "Comprehensive guide to healing heel pain with acupuncture and trigger point therapy.",
     date: "2024-08-01",
+  },
+  {
+    id: 3,
+    title: "🌸 ZenJi: AI-Powered Emotional Healing",
+    excerpt: "Discover ZenJi's innovative approach to emotional well-being through personalized Bach Flower Essences.",
+    date: "2024-12-01",
   }
 ];
 
@@ -124,4 +129,3 @@ const BlogPreview = () => {
 };
 
 export default BlogPreview;
-
