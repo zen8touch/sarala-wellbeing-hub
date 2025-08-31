@@ -4,6 +4,7 @@ import { Menu, X, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
+import zentouchLogo from "@/assets/zentouch-logo.png"
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/6090063e-0814-459e-ac12-c42da63e2a7b.png" 
+              src={zentouchLogo}
               alt="Zentouch Logo" 
               className="h-12 w-auto"
             />
