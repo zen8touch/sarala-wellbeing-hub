@@ -343,6 +343,21 @@ const Blog = () => {
             </div>
           );
         }
+        // Add Mathangi Mudra image after "What is Mathangi Mudra?" heading
+        if (line.substring(3) === 'What is Mathangi Mudra?') {
+          elements.push(
+            <div key={key++} className="mb-6">
+              <img 
+                src="/lovable-uploads/b44cb2d4-8513-47f3-a6e5-d0036474c70d.png" 
+                alt="Hands demonstrating Mathangi Mudra hand position with middle fingers raised and touching"
+                className="w-full max-w-md mx-auto h-auto rounded-lg shadow-lg"
+              />
+              <p className="text-sm text-muted-foreground text-center mt-2">
+                Mathangi Mudra: Middle fingers raised and pressed together, other fingers interlocked
+              </p>
+            </div>
+          );
+        }
       } else if (line.startsWith('### ')) {
         elements.push(
           <h3 key={key++} className="text-xl font-semibold text-foreground mt-6 mb-3">
