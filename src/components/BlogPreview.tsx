@@ -20,6 +20,12 @@ const blogPosts = [
     title: "🌸 ZenJi: AI-Powered Emotional Healing",
     excerpt: "Discover ZenJi's innovative approach to emotional well-being through personalized Bach Flower Essences.",
     date: "2024-12-01",
+  },
+  {
+    id: 4,
+    title: "Mathangi Mudra: Yogic Balance for Blood Sugar",
+    excerpt: "A simple hand gesture from yogic tradition that helps regulate blood sugar and calms post-meal giddiness.",
+    date: "2024-12-05",
   }
 ];
 
