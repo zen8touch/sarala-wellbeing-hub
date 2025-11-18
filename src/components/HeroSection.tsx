@@ -102,6 +102,7 @@ const HeroSection = () => {
                   <p className="text-sm text-accent">Licensed Acupuncturist</p>
                   <p className="text-sm text-accent">Regn. No. 200 - Tamilnadu Acupuncture Council</p>
                   <p className="text-sm text-accent">Certified Life Coach</p>
+                  <p className="text-sm text-accent">Certified Floral Therapist</p>
                   <p className="text-sm text-muted-foreground">Sithalapkkam, Chennai</p>
                 </div>
                 <div className="flex justify-center space-x-1">

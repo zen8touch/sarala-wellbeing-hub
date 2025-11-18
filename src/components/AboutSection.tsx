@@ -84,7 +84,7 @@ const AboutSection = () => {
           <h3 className="text-xl font-semibold text-foreground mb-6 text-center">
             Qualifications & Certifications
           </h3>
-          <div className="grid md:grid-cols-4 gap-6 text-center">
+          <div className="grid md:grid-cols-5 gap-6 text-center">
             <div>
               <h4 className="font-medium text-foreground">Licensed Acupuncturist</h4>
               <p className="text-sm text-muted-foreground">Certified Traditional Chinese Medicine</p>
@@ -100,6 +100,10 @@ const AboutSection = () => {
             <div>
               <h4 className="font-medium text-foreground">Certified Life Coach</h4>
               <p className="text-sm text-muted-foreground">Personal Development & Wellness</p>
+            </div>
+            <div>
+              <h4 className="font-medium text-foreground">Certified Floral Therapist</h4>
+              <p className="text-sm text-muted-foreground">Bach Flower Remedies</p>
             </div>
           </div>
         </div>
