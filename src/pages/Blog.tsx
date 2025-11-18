@@ -285,6 +285,134 @@ Mathangi Mudra is a supportive practice, not a replacement for medical advice or
 
 Start your Mathangi Mudra practice today and experience an immediate easing of stress, a calmer gut, and a clearer mind—one breath, one gesture at a time.
     `
+  },
+  {
+    id: 5,
+    title: "Bach Flower Remedies Pocket Guide",
+    excerpt: "A comprehensive guide to 38 Bach Flower Remedies—gentle, plant-based treatments for emotional well-being and balance.",
+    date: "2024-12-10",
+    author: "Dr. Sarala",
+    content: `
+## Bach Flower Remedies Pocket Guide
+
+### Agrimony
+**Masks worries with cheerfulness.** Helps bring honesty and inner peace.
+
+### Aspen
+**Has vague, unexplained fears.** Offers courage and trust in life.
+
+### Beech
+**Critical of others, easily intolerant or judgmental.** Encourages acceptance and kindness.
+
+### Centaury
+**Difficulty saying no, puts others above self, easily dominated.** Fosters assertiveness and self-respect.
+
+### Cerato
+**Doubts own decisions and seeks advice, lacks self-confidence.** Inspires trust in one's own judgment.
+
+### Cherry Plum
+**Afraid of losing self-control, impulsive thoughts or actions.** Restores calm and self-composure.
+
+### Chestnut Bud
+**Repeats mistakes, slow to learn from experience.** Supports attentiveness and learning.
+
+### Chicory
+**Possessive, selfish love, wants attention and affection.** Promotes unconditional love and giving.
+
+### Clematis
+**Withdrawn, dreamy, inattentive or lacking focus.** Grounds and brings clearer presence.
+
+### Crab Apple
+**Feels unclean or self-disgusted, overly concerned with details.** Helps acceptance and self-love.
+
+### Elm
+**Overwhelmed by responsibility or sudden self-doubt.** Restores confidence and ability.
+
+### Gentian
+**Discouraged after setbacks, pessimistic or easily demoralized.** Rekindles optimism and persistence.
+
+### Gorse
+**Feels hopeless or has given up, unable to see light ahead.** Encourages hope and renewal.
+
+### Heather
+**Needs attention and company, talks excessively about self.** Promotes empathy and quietude.
+
+### Holly
+**Feels angry, jealous, or suspicious of others.** Cultivates generosity and loving feelings.
+
+### Honeysuckle
+**Lives in the past, can't let go of old memories.** Allows joyful presence in the now.
+
+### Hornbeam
+**Monday-morning tiredness, weary or procrastinating tasks.** Revives energy and motivation.
+
+### Impatiens
+**Impatient, easily irritated by slowness in others.** Holds space for patience and gentleness.
+
+### Larch
+**Lacks confidence, expects failure, avoids challenge.** Builds self-assurance and boldness.
+
+### Mimulus
+**Shy, fearful of known things, easily nervous.** Brightens inner courage and strength.
+
+### Mustard
+**Sudden depression or gloom with no clear cause.** Brings joy and mental clarity.
+
+### Oak
+**Persistent, industrious, keeps working even when exhausted.** Restores balance and resilience.
+
+### Olive
+**Mentally and physically drained, exhausted after effort.** Renews vitality and spirit.
+
+### Pine
+**Blames self, guilt-ridden, never satisfied.** Fosters forgiveness and self-worth.
+
+### Red Chestnut
+**Excessively concerned or worried about loved ones' wellbeing.** Restores calm and wise concern.
+
+### Rock Rose
+**Terrified, panicked, or frozen with fear.** Sparks bravery and clear-headedness.
+
+### Rock Water
+**Rigid, self-denying, sets strict discipline for self.** Softens self-perfectionism and allows flexibility.
+
+### Scleranthus
+**Indecisive, swings between choices or moods.** Gains inner balance and decisiveness.
+
+### Star of Bethlehem
+**For shock or trauma, distress from sudden hardship.** Brings comfort and healing.
+
+### Sweet Chestnut
+**Deep despair or anguish, feels at breaking point.** Opens to relief and hope.
+
+### Vervain
+**Over-enthusiastic, high-strung, pushes beliefs fervently.** Balances zeal with tolerance and ease.
+
+### Vine
+**Dominant, assertive, wants to control others.** Promotes respectful leadership and compassion.
+
+### Walnut
+**Sensitive to change or outside influences, needs protection.** Assists in adapting and steady transitions.
+
+### Water Violet
+**Proud, distant, prefers solitude, finds it hard to connect.** Encourages warmth and openness.
+
+### White Chestnut
+**Persistent, unwanted thoughts, mental chatter.** Quietens the mind and brings peace.
+
+### Wild Oat
+**Uncertain about life direction or ambition, feels lost.** Reveals purpose and clear goals.
+
+### Wild Rose
+**Passive, resigned, indifferent to life's opportunities.** Rekindles enthusiasm and engagement.
+
+### Willow
+**Bitter, resentful, feels life is unfair.** Restores positivity and forgiveness.
+
+---
+
+💚 **Discover emotional healing through the gentle wisdom of Bach Flower Remedies.**
+    `
   }
 ];
 

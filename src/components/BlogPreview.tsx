@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 
 const blogPosts = [
   {
+    id: 5,
+    title: "Bach Flower Remedies Pocket Guide",
+    excerpt: "A comprehensive guide to 38 Bach Flower Remedies—gentle, plant-based treatments for emotional well-being.",
+    date: "2024-12-10",
+  },
+  {
     id: 1,
     title: "Transform Anxiety into Confidence",
     excerpt: "Harness performance anxiety as a powerful force for success with Zentouch's holistic approach.",
